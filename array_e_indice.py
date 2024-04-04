@@ -21,3 +21,20 @@ def imprime_segundo_terceiro():
     print("Terceiro -", nomes[2])
 
 imprime_segundo_terceiro()
+
+def substituir_alimentos():
+    array_inicial = ["Macarrão", "Pepino", "Batata"]
+
+    alimento1 = input("Digite o alimento 1: ")
+    alimento2 = input("Digite o alimento 2: ")
+    alimento3 = input("Digite o alimento 3: ")
+    
+    array_inicial[0] = alimento1
+    array_inicial[1] = alimento2
+    array_inicial[2] = alimento3
+
+    print("1 -", array_inicial[0])
+    print("2 -", array_inicial[1])
+    print("3 -", array_inicial[2])
+
+substituir_alimentos()
