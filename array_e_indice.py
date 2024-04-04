@@ -14,3 +14,10 @@ def imprime_primeiro_ultimo():
     print("Último -", nomes[3])
 
 imprime_primeiro_ultimo()
+
+
+def imprime_segundo_terceiro():
+    print("Segundo -", nomes[1])
+    print("Terceiro -", nomes[2])
+
+imprime_segundo_terceiro()
